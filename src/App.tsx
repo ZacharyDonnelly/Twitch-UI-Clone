@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
 
 function App() {
 	return (
 		<div>
-			<h1>Testing the page</h1>
+			<h1 style={{ fontSize: 16 }}>test</h1>
 		</div>
 	);
 }
