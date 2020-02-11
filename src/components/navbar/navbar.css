@@ -1,0 +1,132 @@
+.navbar {
+	display: flex;
+	overflow: hidden !important;
+	height: 50px;
+	line-height: 18px;
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);
+	box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);
+}
+
+.navbar-main {
+	font-family: inherit;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	overflow: hidden !important;
+	font-weight: 300;
+	text-align: center;
+	align-items: center;
+	white-space: nowrap;
+	margin-left: 1.5rem;
+	display: inherit;
+	vertical-align: baseline;
+	list-style: none;
+	font-size: 1.3rem;
+	flex-direction: row;
+}
+
+.navbar-item {
+	font-family: inherit;
+	color: #0e0e10;
+	margin: 0 1.4rem !important;
+}
+
+.active {
+	color: #772ce8;
+	padding-bottom: 0.69rem;
+	border-bottom: 1.5px solid rgb(119, 44, 232);
+}
+
+.login-button {
+	border-radius: 4px;
+	background-color: lightgray;
+	margin-right: 0.95rem;
+	align-items: center;
+	text-decoration: none;
+	display: inline-flex;
+	user-select: none;
+	font: inherit;
+	font-size: 13.33px;
+	white-space: nowrap;
+	font-stretch: 100%;
+	position: relative !important;
+	border: none;
+	height: 30px;
+	width: 54.36px;
+	justify-content: center;
+	line-height: 18px;
+	word-spacing: 0px;
+	overflow: hidden !important;
+	vertical-align: middle;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	padding: 0 1.5rem;
+	font-weight: 600;
+	vertical-align: middle !important;
+	text-shadow: none;
+	-webkit-appearance: none;
+	align-items: center;
+}
+
+.login-button-div {
+	display: block;
+	font-stretch: 100%;
+	height: 18px;
+	color: #0e0e10;
+	width: 34.36px;
+	writing-mode: horizontal-tb;
+}
+.signup-button {
+	border-radius: 4px;
+	word-spacing: 0px;
+	align-items: center;
+	text-align: start;
+	justify-content: center;
+	background-color: #9147ff;
+	text-decoration: none;
+	display: inline-flex;
+	user-select: none;
+	font: inherit;
+	font-size: 13.33px;
+	white-space: nowrap;
+	font-stretch: 100%;
+	position: relative !important;
+	border: none;
+	height: 30px;
+	width: 62.797px;
+	justify-content: center;
+	line-height: 18px;
+	overflow: hidden !important;
+	vertical-align: middle;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	padding: 1 1.5rem;
+	font-weight: 600;
+	vertical-align: middle !important;
+	text-shadow: none;
+	-webkit-appearance: none;
+	margin-right: 10px;
+	align-items: center;
+}
+
+.signup-button-div {
+	display: block;
+	font-stretch: 100%;
+	height: 18px;
+	color: #ffffff;
+	width: 42.7969px;
+	writing-mode: horizontal-tb;
+}
+
+.navbar-button-div {
+	margin-top: 10px;
+	display: block;
+	margin-left: 73.4vw;
+}
+
+.navbar-prime-svg {
+	min-height: 100%;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	position: absolute;
+	top: -442.5px;
+	right: 180px;
+}

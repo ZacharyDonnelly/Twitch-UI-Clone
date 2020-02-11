@@ -122,7 +122,7 @@ video {
 	padding: 0;
 	box-sizing: border-box;
 }
-.root,
+#root,
 html,
 body {
 	font-size: 12px;
@@ -132,8 +132,8 @@ body {
 	width: 100%;
 	position: relative;
 	scroll-behavior: smooth;
-	overflow-y: scroll;
-	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow-x: hidden !important;
 	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -163,8 +163,4 @@ body {
 ol,
 ul {
 	list-style: none;
-}
-
-* + * {
-	margin: 0.25rem !important;
 }
