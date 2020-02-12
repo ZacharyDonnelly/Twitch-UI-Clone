@@ -1,3 +1,4 @@
+/*NAVBAR*/
 .navbar {
 	display: flex;
 	overflow: hidden !important;
@@ -11,8 +12,6 @@
 .navbar-main {
 	font-family: inherit;
 	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
-	overflow: hidden !important;
-	font-weight: 300;
 	text-align: center;
 	align-items: center;
 	white-space: nowrap;
@@ -20,14 +19,21 @@
 	display: inherit;
 	vertical-align: baseline;
 	list-style: none;
-	font-size: 1.3rem;
+	font-size: 18px;
+	line-height: 1.5;
 	flex-direction: row;
 }
 
 .navbar-item {
 	font-family: inherit;
-	color: #0e0e10;
+	color: #0e0e10 !important;
+	cursor: pointer;
+	z-index: 2;
 	margin: 0 1.4rem !important;
+}
+
+.navbar-item:hover {
+	color: #772ce7 !important;
 }
 
 .active {
@@ -36,9 +42,11 @@
 	border-bottom: 1.5px solid rgb(119, 44, 232);
 }
 
+/*BUTTONS*/
+
 .login-button {
 	border-radius: 4px;
-	background-color: lightgray;
+	background-color: rgba(0, 0, 0, 0.1);
 	margin-right: 0.95rem;
 	align-items: center;
 	text-decoration: none;
@@ -51,7 +59,8 @@
 	position: relative !important;
 	border: none;
 	height: 30px;
-	width: 54.36px;
+	outline: none;
+	width: 57.36px;
 	justify-content: center;
 	line-height: 18px;
 	word-spacing: 0px;
@@ -82,6 +91,7 @@
 	justify-content: center;
 	background-color: #9147ff;
 	text-decoration: none;
+	outline: none;
 	display: inline-flex;
 	user-select: none;
 	font: inherit;
@@ -91,18 +101,18 @@
 	position: relative !important;
 	border: none;
 	height: 30px;
-	width: 62.797px;
+	width: 66px;
 	justify-content: center;
 	line-height: 18px;
 	overflow: hidden !important;
 	vertical-align: middle;
 	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
-	padding: 1 1.5rem;
+	padding: 0 2.5rem;
 	font-weight: 600;
 	vertical-align: middle !important;
 	text-shadow: none;
 	-webkit-appearance: none;
-	margin-right: 10px;
+	margin-right: 15px;
 	align-items: center;
 }
 
@@ -118,8 +128,9 @@
 .navbar-button-div {
 	margin-top: 10px;
 	display: block;
-	margin-left: 73.4vw;
+	margin-left: 76.7vw;
 }
+/*BUTTON AREA SVG*/
 
 .navbar-prime-svg {
 	min-height: 100%;
@@ -128,5 +139,162 @@
 	overflow: hidden;
 	position: absolute;
 	top: -442.5px;
-	right: 180px;
+	right: 195px;
+}
+
+/*SVG DROPDOWN SECTION*/
+.shadow-button {
+	position: absolute;
+	top: 2.5px;
+	height: 30px;
+	width: 30px;
+	left: 1px;
+	outline: none;
+	border: none;
+	z-index: 2;
+	background: transparent;
+	opacity: 1;
+}
+/*SVG*/
+.svg-dropdown-div {
+	position: absolute;
+	top: 10px;
+	left: 285px;
+	z-index: 1;
+	border-radius: 4px;
+}
+
+.elipsis {
+	height: 25px;
+	width: 25px;
+	z-index: 1;
+	overflow: hidden;
+	padding-left: 6px;
+	min-height: 100%;
+}
+
+.svg-dropdown {
+	width: 30px;
+	text-align: start;
+	vertical-align: middle;
+	z-index: 1;
+	outline: none;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0);
+	height: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.shadow-button:focus,
+.login-button:focus,
+.signup-button:focus {
+	-webkit-box-shadow: rgb(119, 44, 232) 0px 0px 6px 0px;
+	-moz-box-shadow: rgb(119, 44, 232) 0px 0px 6px 0px;
+	box-shadow: rgb(119, 44, 232) 0px 0px 6px 0px;
+	z-index: 1;
+}
+
+.svg-dropdown-div:hover {
+	background-color: #f7f7f8;
+	transition: 0;
+}
+
+/*DROPDOWN*/
+.dropdown-outter {
+	max-height: 100%;
+	height: 539px;
+	position: absolute;
+	top: 50px;
+	left: 290px;
+	border-radius: 6px;
+	overflow: scroll;
+	display: flex;
+	-webkit-overflow-scrolling: touch;
+	overflow: hidden;
+}
+
+.dropdown-container {
+	border-radius: 6px;
+	height: 539px;
+	background-color: #fff;
+	display: none;
+	overflow-y: scroll;
+}
+
+.showing {
+	display: block;
+}
+
+.dropdown {
+	height: 539px;
+	padding: 15px 0;
+	max-height: 550px;
+	border-radius: 6px;
+	background-color: #fff;
+	width: 180px;
+}
+.dropdown-header {
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	margin-top: -12.5px;
+	padding: 7.5px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #53535f;
+}
+
+.dropdown-item {
+	height: 18px;
+	width: 170px;
+	line-height: 18px;
+	text-size-adjust: 100%;
+	margin: 0.75rem 0.5rem;
+}
+
+.dropdown-item:hover {
+	background-color: lightgray;
+}
+
+.dropdown-item-a {
+	color: rgb(14, 14, 16);
+	color: inherit;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	text-decoration: none;
+	text-size-adjust: 100%;
+	line-height: 18px;
+	vertical-align: baseline;
+	font-size: 13px;
+	padding: 1rem 0.5rem;
+	font-weight: 400;
+}
+
+.border {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	display: block;
+	margin: 1rem 0.05rem;
+}
+
+/*DROPDOWN SCROLLBAR*/
+.dropdown-container:hover.dropdown-container::-webkit-scrollbar-thumb {
+	background-color: rgb(0, 0, 0);
+	transition: 0.25s;
+	border-radius: 6px;
+}
+
+.dropdown-container::-webkit-scrollbar {
+	background-color: transparent;
+	border-color: rgb(14, 14, 16);
+	border-radius: 4px;
+	-webkit-overflow-scrolling: touch;
+	width: 7.5px;
+	visibility: visible;
+	will-change: opacity;
+	z-index: 1;
+	outline: 1px solid slategrey;
+}
+.dropdown-container::-webkit-scrollbar-track {
+	background-color: #fff;
+	-webkit-overflow-scrolling: touch;
+	border-radius: 6px;
 }

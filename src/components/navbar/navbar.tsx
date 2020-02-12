@@ -6,6 +6,7 @@ import NavbarSvg from './navbar-logo-svg/navbar-logo-svg';
 import NavbarPrime from './navbar-prime-svg/navbar-prime-svg';
 import NavbarAvatar from './navbar-avatar-svg/navbar-avatar-svg';
 import './navbar.css';
+import NavbarDropdown from './navbar-svg-dropdown/navbar-svg-dropdown';
 
 const Navbar = () => (
 	<nav className="navbar">
@@ -13,31 +14,22 @@ const Navbar = () => (
 		<div className="navbar-main">
 			<p className="navbar-item">
 				<NavLink
-					to="/"
-					style={{ textDecoration: 'none' }}
-					activeClassName="active">
-					Discover
-				</NavLink>
-			</p>
-			<p className="navbar-item">
-				<NavLink
 					to="/directory"
-					style={{ textDecoration: 'none' }}
-					activeClassName="active">
-					Browse
-				</NavLink>
+					style={{ textDecoration: 'none', opacity: 0 }}
+					activeClassName="active"></NavLink>
+				Browse
 			</p>
 			<p className="navbar-item">
 				<NavLink
 					to="/amazon"
-					style={{ textDecoration: 'none' }}
-					activeClassName="active">
-					Try Prime
-				</NavLink>
+					style={{ textDecoration: 'none', opacity: 0 }}
+					activeClassName="active"></NavLink>
+				Try Prime
 			</p>
 		</div>
 		<div className="navbar-button-div">
 			<NavbarPrime />
+			<NavbarDropdown />
 			<NavbarLogin />
 			<NavbarSignup />
 			<NavbarAvatar />

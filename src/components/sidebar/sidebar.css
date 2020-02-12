@@ -1,0 +1,23 @@
+/*DROPDOWN SCROLLBAR*/
+/* .dropdown-container:hover.dropdown-container::-webkit-scrollbar-thumb {
+	background-color: rgb(0, 0, 0);
+	transition: 0.25s;
+	border-radius: 6px;
+}
+
+.dropdown-container::-webkit-scrollbar {
+	background-color: transparent;
+	border-color: rgb(14, 14, 16);
+	border-radius: 4px;
+	-webkit-overflow-scrolling: touch;
+	width: 7.5px;
+	visibility: visible;
+	will-change: opacity;
+	z-index: 1;
+	outline: 1px solid slategrey;
+}
+.dropdown-container::-webkit-scrollbar-track {
+	background-color: #fff;
+	-webkit-overflow-scrolling: touch;
+	border-radius: 6px;
+} */

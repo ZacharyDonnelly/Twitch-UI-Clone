@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from './sidebar';
+import './sidebar.css';
 
 export default {
 	component: Sidebar,
