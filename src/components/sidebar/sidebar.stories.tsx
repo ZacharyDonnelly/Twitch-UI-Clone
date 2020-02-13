@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidebar from './sidebar';
 import Summit from '../../assets/images/summit1g-card.png';
 import Tyler from '../../assets/images/loltyler1.png';
 import Myth from '../../assets/images/myth-card.png';
@@ -10,7 +9,9 @@ import MrFresh from '../../assets/images/mrfreshian.png';
 import Sneaky from '../../assets/images/sneakylol.-card.png';
 import Hasan from '../../assets/images/hasanabi-card.png';
 import Lord from '../../assets/images/lord_kebun-card.png';
-import './sidebar.css';
+import SidebarSuggested from './sidebar-suggested/sidebar-suggested';
+import Sidebar from './sidebar';
+import './sidebar.styles.css';
 
 export default {
 	component: Sidebar,
@@ -25,8 +26,8 @@ export const SidebarStory = () => {
 				<button className="sidebar-arrow-btn">
 					<svg
 						className="arrow-svg-left"
-						width="25px"
-						height="25px"
+						width="20px"
+						height="20px"
 						version="1.1"
 						viewBox="0 0 20 20"
 						x="0px"
@@ -150,7 +151,7 @@ export const SidebarStory = () => {
 						<img className="image-card" src={Sneaky} alt="Sneaky" />
 					</figure>
 					<div className="sidebar-card-text">
-						<p className="sidebar-card-title">ssneakylol</p>
+						<p className="sidebar-card-title">sneakylol</p>
 						<p className="sidebar-card-description">Escape From Tarkov</p>
 					</div>
 					<div className="viewer-count-div">
@@ -190,6 +191,7 @@ export const SidebarStory = () => {
 						</div>
 					</div>
 				</div>
+				<SidebarSuggested />
 			</div>
 		</div>
 	);

@@ -9,6 +9,7 @@ import MrFresh from '../../assets/images/mrfreshian.png';
 import Sneaky from '../../assets/images/sneakylol.-card.png';
 import Hasan from '../../assets/images/hasanabi-card.png';
 import Lord from '../../assets/images/lord_kebun-card.png';
+import SidebarSuggested from './sidebar-suggested/sidebar-suggested';
 import './sidebar.styles.css';
 
 const Sidebar = () => {
@@ -184,6 +185,7 @@ const Sidebar = () => {
 						</div>
 					</div>
 				</div>
+				<SidebarSuggested />
 			</div>
 		</div>
 	);

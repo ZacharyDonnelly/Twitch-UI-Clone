@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbarSignup from './navbar-signup-button';
-import '../../navbar.css';
+import '../../navbar.styles.css';
 
 export default {
 	component: NavbarSignup,

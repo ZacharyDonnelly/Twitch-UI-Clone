@@ -4,7 +4,7 @@ import Navbar from './navbar';
 import NavbarLogin from './navbar-buttons/login/navbar-login-button';
 import NavbarSignup from './navbar-buttons/signup/navbar-signup-button';
 import NavbarSvg from './navbar-logo-svg/navbar-logo-svg';
-import './navbar.css';
+import './navbar.styles.css';
 
 export default {
 	component: Navbar,

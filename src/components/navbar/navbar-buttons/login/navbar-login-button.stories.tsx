@@ -1,6 +1,6 @@
 import React from 'react';
 import NavbarLogin from './navbar-login-button';
-import '../../navbar.css';
+import '../../navbar.styles.css';
 
 export default {
 	component: NavbarLogin,

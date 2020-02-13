@@ -1,0 +1,114 @@
+.headliner-outter {
+	position: absolute;
+	height: 350px;
+	top: 50.1px;
+	left: 240.5px;
+	z-index: -6;
+	width: 1679.5px;
+	background-color: rgb(25, 6, 7);
+}
+.headliner-container {
+	display: block;
+	background-color: rgb(25, 6, 7);
+	height: 100%;
+	z-index: -6;
+	width: 100%;
+	cursor: pointer;
+}
+
+.headliner-left {
+	position: absolute;
+	/* margin-left: 240px; */
+	display: block;
+	height: 350px;
+	z-index: -5;
+	width: 450px;
+}
+.headliner-right {
+	position: absolute;
+	display: block;
+	height: 350px;
+	width: 450px;
+	z-index: -5;
+	right: 0;
+}
+
+/*HEADLINER CAROUSEL*/
+.headliner-carousel {
+	position: absolute;
+	cursor: pointer;
+	top: 70px;
+	left: 392px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1380px;
+	height: 310px;
+}
+
+/*HEADLINER SVG*/
+.headliner-svg-left-outter,
+.headliner-svg-right-outter {
+	background-color: rgb(14, 14, 16);
+	position: absolute;
+	border-radius: 6px;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	z-index: 3;
+	cursor: pointer;
+	height: 36px;
+	width: 36px;
+}
+
+.headliner-svg-left-outter {
+	left: 0;
+}
+.headliner-svg-right-outter {
+	right: 0;
+}
+
+.headliner-left-svg,
+.headliner-right-svg {
+	position: absolute;
+	z-index: 3;
+	cursor: pointer;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: inherit;
+	width: inherit;
+}
+
+.headliner-left-span,
+.headliner-right-span {
+	position: relative;
+	padding-bottom: 7.5px;
+	padding-right: 10px;
+}
+
+.headliner-left-btn,
+.headliner-right-btn {
+	position: absolute;
+	background: transparent;
+	border: none;
+	z-index: 3;
+	outline: none;
+	height: 36px;
+	cursor: pointer;
+	width: 36px;
+}
+
+.headliner-left-btn:hover,
+.headliner-right-btn:hover {
+	background-color: #f7f7f8;
+	opacity: 0.15;
+}
+
+.headliner-left-btn:focus,
+.headliner-right-btn:focus {
+	-webkit-box-shadow: rgb(119, 44, 232) 0px 0px 6px 0px;
+	-moz-box-shadow: rgb(119, 44, 232) 0px 0px 6px 0px;
+	box-shadow: rgb(119, 44, 232) 0px 0px 6px 0px;
+}

@@ -3,6 +3,7 @@
 	display: flex;
 	overflow: hidden !important;
 	height: 50px;
+	z-index: 10;
 	line-height: 18px;
 	-webkit-box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);
 	-moz-box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);
@@ -13,6 +14,7 @@
 	font-family: inherit;
 	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
 	text-align: center;
+	z-index: 10;
 	align-items: center;
 	white-space: nowrap;
 	margin-left: 1.5rem;
@@ -82,10 +84,12 @@
 	color: #0e0e10;
 	width: 34.36px;
 	writing-mode: horizontal-tb;
+	cursor: pointer;
 }
 .signup-button {
 	border-radius: 4px;
 	word-spacing: 0px;
+	cursor: pointer;
 	align-items: center;
 	text-align: start;
 	justify-content: center;
