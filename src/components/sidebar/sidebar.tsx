@@ -9,7 +9,7 @@ import MrFresh from '../../assets/images/mrfreshian.png';
 import Sneaky from '../../assets/images/sneakylol.-card.png';
 import Hasan from '../../assets/images/hasanabi-card.png';
 import Lord from '../../assets/images/lord_kebun-card.png';
-import './sidebar.css';
+import './sidebar.styles.css';
 
 const Sidebar = () => {
 	return (
@@ -144,7 +144,7 @@ const Sidebar = () => {
 						<img className="image-card" src={Sneaky} alt="Sneaky" />
 					</figure>
 					<div className="sidebar-card-text">
-						<p className="sidebar-card-title">ssneakylol</p>
+						<p className="sidebar-card-title">sneakylol</p>
 						<p className="sidebar-card-description">Escape From Tarkov</p>
 					</div>
 					<div className="viewer-count-div">

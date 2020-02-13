@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../navbar.css';
+import '../navbar.styles.css';
 
 const NavbarDropdown = () => {
 	const [display, setDisplay] = useState(false);
