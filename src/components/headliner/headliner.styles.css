@@ -18,7 +18,6 @@
 
 .headliner-left {
 	position: absolute;
-	/* margin-left: 240px; */
 	display: block;
 	height: 350px;
 	z-index: -5;
@@ -93,6 +92,8 @@
 	position: absolute;
 	background: transparent;
 	border: none;
+	left: -5px;
+	bottom: 5px;
 	z-index: 3;
 	outline: none;
 	height: 36px;

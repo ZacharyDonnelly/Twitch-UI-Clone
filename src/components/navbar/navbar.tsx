@@ -7,6 +7,7 @@ import NavbarPrime from './navbar-prime-svg/navbar-prime-svg';
 import NavbarAvatar from './navbar-avatar-svg/navbar-avatar-svg';
 import NavbarDropdown from './navbar-svg-dropdown/navbar-svg-dropdown';
 import './navbar.styles.css';
+import NavbarSearch from './navbar-search-box/navbar-search-box';
 
 const Navbar = () => (
 	<nav className="navbar">
@@ -41,6 +42,7 @@ const Navbar = () => (
 			<NavbarSignup />
 			<NavbarAvatar />
 		</div>
+		<NavbarSearch />
 	</nav>
 );
 export default Navbar;

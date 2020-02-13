@@ -50,6 +50,7 @@
 	border-radius: 4px;
 	background-color: rgba(0, 0, 0, 0.1);
 	margin-right: 0.95rem;
+	margin-left: 1rem;
 	align-items: center;
 	text-decoration: none;
 	display: inline-flex;
@@ -132,18 +133,17 @@
 .navbar-button-div {
 	margin-top: 10px;
 	display: block;
-	margin-left: 71vw;
+	margin-left: 69vw;
 }
 /*BUTTON AREA SVG*/
 
 .navbar-prime-svg {
-	min-height: 100%;
 	width: 20px;
 	height: 20px;
+	margin-right: 0.8rem;
+	margin-bottom: -6px;
 	overflow: hidden;
-	position: absolute;
-	top: -442.5px;
-	right: 195px;
+	z-index: 11;
 }
 
 /*SVG DROPDOWN SECTION*/
@@ -232,10 +232,12 @@
 
 .showing {
 	display: block;
+	z-index: 10;
 }
 
 .dropdown {
 	height: 539px;
+	z-index: 55;
 	padding: 15px 0;
 	max-height: 550px;
 	border-radius: 6px;
@@ -305,4 +307,79 @@
 	background-color: #fff;
 	-webkit-overflow-scrolling: touch;
 	border-radius: 6px;
+}
+/*NAVBAR SEARCH*/
+
+.navbar-searchbox-inner {
+	display: flex;
+	position: absolute;
+	margin-left: -1rem;
+	top: 7.5px;
+	left: 750px;
+	height: 36px;
+}
+.navbar-searchbox-svg-div {
+	opacity: 0.68;
+}
+.navbar-searchbox-input {
+	line-height: 21px;
+	-webkit-appearance: none;
+	color: rgb(0, 0, 0);
+	outline: none;
+	border-color: rgb(145, 71, 255);
+	transition-delay: 0s, 0s, 0s;
+	transition: box-shadow 0.1s ease-in, border 0.1s ease-in,
+		background-color 0.1s ease-in;
+	transition-duration: 0.1s, 0.1s, 0.1s;
+	transition-timing-function: ease-in, ease-in, ease-in;
+	border-top-left-radius: 6px !important;
+	border-bottom-left-radius: 6px !important;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	font-family: Roobert, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: rgb(239, 239, 241);
+	padding: 0.5rem 1rem;
+	width: 300px;
+	display: block !important;
+	text-rendering: auto;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	-webkit-rtl-ordering: logical;
+	border-bottom-width: 0.2px;
+	outline: none;
+	border-style: inset;
+	border-color: initial;
+	border-image: initial;
+	background-clip: padding-box;
+	border-bottom-width: 2px;
+	cursor: text;
+	font-size: 16px;
+	text-align: start;
+}
+.navbar-searchbox-input:focus {
+	outline-offset: -2px;
+	border-color: #9147ff;
+}
+
+.navbar-searchbox-btn {
+	cursor: not-allowed;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	outline: none;
+	opacity: 0.5;
+	padding: 1px 5px;
+	text-decoration: none;
+	font-weight: 600;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background: 0 0;
+	font: inherit;
+	text-align: inherit;
+	background-color: rgba(255, 255, 255, 0.15);
 }
