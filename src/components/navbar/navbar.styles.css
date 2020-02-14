@@ -232,7 +232,7 @@
 
 .showing {
 	display: block;
-	z-index: 10;
+	z-index: 9999;
 }
 
 .dropdown {

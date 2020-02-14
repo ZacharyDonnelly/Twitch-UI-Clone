@@ -8,9 +8,10 @@ import HeadlinerFullSVG from '../../headliner-video-svg/headliner-full-svg/headl
 import HeadlinerPlaySVG from '../../headliner-video-svg/headliner-play-svg/headliner-play-svg';
 import HeadlinerVolumeSVG from '../../headliner-video-svg/headliner-volume-svg';
 import HeadlinerSettingsSVG from '../../headliner-video-svg/headliner-settings-svg/headliner-settings-svg';
-import '../../headliner.styles.css';
 import HeadlinerPlayLargeSVG from '../../headliner-video-svg/headliner-play-svg/headliner-playLarge-svg';
 import StatusIsLive from '../../status-is-live-indicator/StatusIsLive';
+import HeadlinerMetadata from '../../headliner-main-video-sidebar/headliner-metadata';
+import '../../headliner.styles.css';
 
 const HeadlinerVideos = () => {
 	return (
@@ -35,6 +36,7 @@ const HeadlinerVideos = () => {
 				<HeadlinerVolumeSVG />
 				<HeadlinerSettingsSVG />
 				<HeadlinerPlaySVG />
+				<HeadlinerMetadata />
 			</div>
 		</div>
 	);
