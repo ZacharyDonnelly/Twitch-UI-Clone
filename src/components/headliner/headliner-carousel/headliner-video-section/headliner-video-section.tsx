@@ -4,7 +4,13 @@ import Player2 from '../../../../assets/images/Video-Player-Preview-2.jpg';
 import Player3 from '../../../../assets/images/Video-Player-Preview-3.jpg';
 import Player4 from '../../../../assets/images/Video-Player-Preview-4.jpg';
 import HeadlinerPreview from '../headliner-previews/headliner-preview-template';
+import HeadlinerFullSVG from '../../headliner-video-svg/headliner-full-svg/headliner-full-svg';
+import HeadlinerPlaySVG from '../../headliner-video-svg/headliner-play-svg/headliner-play-svg';
+import HeadlinerVolumeSVG from '../../headliner-video-svg/headliner-volume-svg';
+import HeadlinerSettingsSVG from '../../headliner-video-svg/headliner-settings-svg/headliner-settings-svg';
 import '../../headliner.styles.css';
+import HeadlinerPlayLargeSVG from '../../headliner-video-svg/headliner-play-svg/headliner-playLarge-svg';
+import StatusIsLive from '../../status-is-live-indicator/StatusIsLive';
 
 const HeadlinerVideos = () => {
 	return (
@@ -22,7 +28,13 @@ const HeadlinerVideos = () => {
 				<HeadlinerPreview image={Player1} alt="Preview Image" />
 			</div>
 			<div className="video-previews-five">
-				<HeadlinerPreview alt="Preview Image" />
+				<StatusIsLive />
+				<HeadlinerFullSVG />
+				<HeadlinerPlaySVG />
+				<HeadlinerPlayLargeSVG />>
+				<HeadlinerVolumeSVG />
+				<HeadlinerSettingsSVG />
+				<HeadlinerPlaySVG />
 			</div>
 		</div>
 	);
