@@ -313,7 +313,7 @@
 .navbar-searchbox-inner {
 	display: flex;
 	position: absolute;
-	margin-left: -1rem;
+	margin-left: 2.25rem;
 	top: 7.5px;
 	left: 750px;
 	height: 36px;

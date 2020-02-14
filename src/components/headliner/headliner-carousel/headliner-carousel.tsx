@@ -1,7 +1,8 @@
 import React from 'react';
 import HeadlinerMiscLeft from '../headliner-misc-svg/headliner-misc-left';
-import '../headliner.styles.css';
 import HeadlinerMiscRight from '../headliner-misc-svg/headliner-misc-right';
+import HeadlinerVideos from './headliner-video-section/headliner-video-section';
+import '../headliner.styles.css';
 
 const HeadlinerCarousel = () => {
 	return (
@@ -13,6 +14,9 @@ const HeadlinerCarousel = () => {
 						<HeadlinerMiscLeft />
 					</span>
 				</div>
+			</div>
+			<div className="headliner-video-section">
+				<HeadlinerVideos />
 			</div>
 			<div className="headliner-svg-right-outter">
 				<div className="headliner-right-svg">
