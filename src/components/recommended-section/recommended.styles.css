@@ -7,17 +7,18 @@
 	z-index: 2000;
 	font-stretch: 100%;
 	background-color: #f7f7f8;
-	border-bottom: 1px solid red;
 	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .recommended-inner-margin {
 	position: relative;
+	display: flex;
+	flex-direction: row;
 	background-color: transparent;
 	margin: 2rem !important;
 	font-style: normal;
 	width: 100%;
-	height: 350px;
+	height: 300px;
 }
 .suggested-header-div {
 	margin-left: 1.6rem;
@@ -42,9 +43,6 @@
 	display: block;
 	transition-timing-function: ease;
 	margin-top: -1.2rem;
-	border-bottom: 1px solid gray;
-	border-left: 1px solid gray;
-	border-bottom: 1px solid gray;
 	height: 292.75px;
 	width: 326px;
 	transform: matrix(1, 0, 0, 1, 0, 0);
@@ -84,11 +82,68 @@
 
 .recommended-card-small-image {
 	height: 40px;
+	float: left;
 	width: 40px;
+	margin: 5px 10px 0 0;
 	vertical-align: top;
 	max-width: 100%;
 	border-radius: 9000px;
 	line-height: 18px;
 	list-style-image: none;
 	list-style-position: outside;
+	margin-bottom: 40px;
+}
+
+.card-subheader {
+	cursor: pointer;
+	overflow: hidden;
+	font-family: Roobert, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	display: block;
+	font-weight: 600;
+	height: 25px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 1.3;
+	font-size: 16px !important;
+}
+
+.card-subheader:hover,
+.recommended-subtitle-user:hover,
+.recommended-subtitle-game:hover {
+	color: #9147ff;
+}
+
+.recommended-subtitles {
+	display: block;
+	cursor: pointer;
+	letter-spacing: -0.6px;
+	font-weight: 400;
+	word-spacing: 0.7px;
+	text-align: left;
+	font-family: Roobert, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #53535f !important;
+	font-size: 15px;
+}
+
+.recommended-subtitle-btn {
+	margin-top: 5px;
+	background-color: gray;
+	border: 2px solid transparent;
+	color: gray;
+	font-size: 11px;
+	height: 20px;
+	width: 59px;
+	line-height: 16.5px;
+	outline-color: gray;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	border-radius: 9000px;
+	display: inline-flex;
+	vertical-align: middle;
+	padding-bottom: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	justify-content: center;
+	text-decoration: none;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import MetaImage from '../../../assets/images/metadata-img.png';
 import '../headliner.styles.css';
+import MetadataButton from './metadata-button/metadata-button';
 
 const HeadlinerMetadata = () => {
 	return (
@@ -20,22 +21,13 @@ const HeadlinerMetadata = () => {
 				</div>
 				<div className="metadata-buttons">
 					<div className="metadata-button-inner">
-						<a
-							className="metadata-button-text"
-							data-a-target="English"
-							aria-label="English"
-							href="/directory/all/tags/6ea6bca4-4712-4ab9-a906-e3336a9d8039">
-							<div className="metadata-text-holder">English</div>
-						</a>
+						<MetadataButton text="English" classes="metadata-button-text" />
 					</div>
 					<div className="metadata-button-inner inner-two">
-						<a
-							className="metadata-button-text text-two"
-							data-a-target="English"
-							aria-label="English"
-							href="/directory/all/tags/6ea6bca4-4712-4ab9-a906-e3336a9d8039">
-							<div className="metadata-text-holder">Meme Runs</div>
-						</a>
+						<MetadataButton
+							classes="metadata-button-text text-two"
+							text="Meme Runs"
+						/>
 					</div>
 				</div>
 				<div
