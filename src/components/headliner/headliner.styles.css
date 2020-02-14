@@ -28,8 +28,8 @@
 	display: block;
 	height: 350px;
 	width: 450px;
-	z-index: 1;
-	right: 385px;
+	z-index: 665;
+	right: 0;
 }
 
 /*HEADLINER CAROUSEL*/
@@ -37,7 +37,7 @@
 	position: absolute;
 	cursor: pointer;
 	top: 70px;
-	left: 370px;
+	left: 390px;
 	background-color: transparent;
 	display: flex;
 	justify-content: center;
@@ -55,7 +55,7 @@
 	justify-content: center;
 	align-items: center;
 	padding: 5px;
-	z-index: 3;
+	z-index: 223;
 	cursor: pointer;
 	height: 36px;
 	width: 36px;
@@ -65,7 +65,7 @@
 	left: 0;
 }
 .headliner-svg-right-outter {
-	right: 0;
+	right: 0 !important;
 }
 
 .headliner-left-svg,
@@ -149,7 +149,7 @@
 	transition: all 450ms ease 0s;
 	right: 0;
 	bottom: 0;
-	left: calc(50% - 265px);
+	left: calc(50% - 255px);
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.05) !important;
 }
 .video-previews-two {
@@ -162,7 +162,7 @@
 	transform: translateX(95px) translateX(-50%) scale(0.8);
 	transition: all 450ms ease 0s;
 	bottom: 0;
-	right: calc(50% - 550px);
+	right: calc(50% - 800px);
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.05) !important;
 }
 .video-previews-three {
@@ -185,10 +185,10 @@
 	width: 590px;
 	transform: translateX(575px) translateX(-50%) scale(0.85);
 	transition: all 450ms ease 0s;
-	left: 0;
+	left: 250px;
 	opacity: 0.6;
 	bottom: 0;
-	right: calc(50% - 550px);
+	right: calc(50% - 600px);
 	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.05) !important;
 }
 .video-previews-five {
@@ -196,6 +196,7 @@
 	background: rgb(0, 0, 0);
 	height: 300px;
 	position: absolute;
+	margin-left: 100px;
 	width: 530px;
 	transform: translateX(485px) translateX(-50%) scale(0.89);
 	transition: all 450ms ease 0s;

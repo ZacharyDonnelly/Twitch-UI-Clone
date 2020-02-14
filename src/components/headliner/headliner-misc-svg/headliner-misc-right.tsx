@@ -4,7 +4,7 @@ const HeadlinerMiscRight = () => {
 	return (
 		<div>
 			<svg
-				className="caraselle-right-svg"
+				className="caraselle-left-svg"
 				fill="#fff"
 				width="24px"
 				height="24px"
@@ -19,5 +19,4 @@ const HeadlinerMiscRight = () => {
 		</div>
 	);
 };
-
 export default HeadlinerMiscRight;
