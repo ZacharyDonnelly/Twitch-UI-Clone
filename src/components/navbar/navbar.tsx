@@ -6,34 +6,22 @@ import NavbarSvg from './navbar-logo-svg/navbar-logo-svg';
 import NavbarPrime from './navbar-prime-svg/navbar-prime-svg';
 import NavbarAvatar from './navbar-avatar-svg/navbar-avatar-svg';
 import NavbarDropdown from './navbar-svg-dropdown/navbar-svg-dropdown';
-import './navbar.styles.css';
 import NavbarSearch from './navbar-search-box/navbar-search-box';
+import './navbar.styles.css';
 
 const Navbar = () => (
 	<nav className="navbar">
 		<NavbarSvg />
 		<div className="navbar-main">
-			<p className="navbar-item">
-				<NavLink
-					to="/"
-					style={{ textDecoration: 'none' }}
-					activeClassName="active"></NavLink>
+			<NavLink to="/" className="navbar-item" activeClassName="active">
 				Discover
-			</p>
-			<p className="navbar-item">
-				<NavLink
-					to="/directory"
-					style={{ textDecoration: 'none' }}
-					activeClassName="active"></NavLink>
+			</NavLink>
+			<NavLink to="/directory" className="navbar-item" activeClassName="active">
 				Browse
-			</p>
-			<p className="navbar-item">
-				<NavLink
-					to="/amazon"
-					style={{ textDecoration: 'none' }}
-					activeClassName="active"></NavLink>
+			</NavLink>
+			<NavLink to="/amazon" className="navbar-item" activeClassName="active">
 				Try Prime
-			</p>
+			</NavLink>
 		</div>
 		<div className="navbar-button-div">
 			<NavbarPrime />

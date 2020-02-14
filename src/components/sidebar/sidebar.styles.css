@@ -59,7 +59,7 @@
 	display: flex !important;
 	font-family: 'Roobert', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	height: 42px;
-	margin: 5px 0;
+	margin: 2.5px 0;
 	width: inherit;
 }
 
@@ -171,7 +171,7 @@
 	font-stretch: 100%;
 	padding: 20px;
 	border-radius: 6px;
-	margin: 20px 10px 10px 10px;
+	margin: 9px 10px 10px 10px;
 	width: 220px;
 	max-width: 220px;
 	display: flex;

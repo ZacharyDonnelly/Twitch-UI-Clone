@@ -133,10 +133,10 @@ body {
 	scroll-behavior: smooth;
 	overflow-y: hidden;
 	overflow-x: hidden !important;
-	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-stretch: 100%;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
 	font-style: normal;
 	font-variant-caps: normal;
 	font-variant-east-asian: normal;

@@ -7,6 +7,7 @@ const NavbarSvg = () => (
 			color: '#9147ff',
 			marginTop: 5,
 			marginLeft: 7.5,
+			cursor: 'pointer',
 		}}
 		overflow="visible"
 		width="40px"

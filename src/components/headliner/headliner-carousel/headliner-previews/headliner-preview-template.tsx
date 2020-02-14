@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../headliner.styles.css';
 
-type HeadlinerProps = {
+interface HeadlinerProps {
 	image?: string;
 	alt: string;
-};
+}
 
 const HeadlinerPreview = ({ image, alt }: HeadlinerProps) => {
 	return (
