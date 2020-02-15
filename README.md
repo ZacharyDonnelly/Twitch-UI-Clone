@@ -1,8 +1,15 @@
 # Twitch clone
-![Homepage of my Twitch clone](https://i.imgur.com/AcTcItM.png)
+![Homepage of my Twitch clone](https://i.imgur.com/UORl0bn.png)
+
 ## React, TypeScript, Redux, & Storybook
 
+![Homepage of my Twitch clone w/ dropdown](https://i.imgur.com/kKP2hAc.png)
+
 ### by Zach Donnelly
+
+## Install Dependencies
+
+### `yarn`
 
 ## Available Scripts
 
