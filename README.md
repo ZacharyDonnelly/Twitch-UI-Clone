@@ -1,5 +1,5 @@
 # Twitch clone
-
+![Homepage of my Twitch clone](https://i.imgur.com/AcTcItM.png)
 ## React, TypeScript, Redux, & Storybook
 
 ### by Zach Donnelly
