@@ -6,7 +6,7 @@
 	text-align: center;
 	padding-top: 1rem;
 	width: 891.8px;
-	margin-top: 800px;
+	margin-top: 700px;
 }
 .show-more-line-left {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
 	width: 655px !important;
 	left: 295px;
 	padding: 1.5rem 0;
-	top: 85%;
+	top: 81.4%;
 }
 .show-more-line-right {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -25,7 +25,7 @@
 	width: 690px !important;
 	right: 80px;
 	padding: 1.5rem 0;
-	top: 85%;
+	top: 81.4%;
 }
 
 .border {
@@ -36,7 +36,8 @@
 /*BUTTON*/
 .border-button-div {
 	position: absolute;
-	top: 83%;
+	top: 79.8%;
+	cursor: pointer;
 	left: 970px;
 	width: 128.8px;
 	cursor: pointer;
@@ -51,7 +52,7 @@
 	border-radius: 4px;
 	background-color: transparent;
 	border: none;
-	width: 160px;
+	width: 140px;
 	height: 33px;
 	cursor: pointer;
 	padding-bottom: 0.5rem;
@@ -71,7 +72,7 @@
 	height: 17.6px;
 	text-decoration-style: solid;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	writing-mode: horizontal-tb;
 	text-rendering: auto;
 	font-weight: 600;
@@ -81,6 +82,6 @@
 .down-arrow-svg {
 	z-index: 5;
 	position: absolute;
-	top: 10%;
-	left: 100%;
+	top: 7%;
+	left: 85%;
 }

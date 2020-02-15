@@ -1,0 +1,108 @@
+.categories-inner-div {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	background-color: transparent;
+	margin-top: -0.5rem !important;
+	margin: 1.3rem;
+	font-style: normal;
+	width: 100%;
+	height: 300px;
+}
+
+.categories-div {
+	position: absolute;
+	right: 0;
+	top: 825px;
+	width: 1679px;
+	height: 339px;
+	font-stretch: 100%;
+	background-color: #f7f7f8;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+}
+.category-header-div {
+	color: #222;
+	display: flex;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	font-stretch: 100%;
+	height: 31px;
+	margin-top: -3.5rem;
+	margin-left: 2rem;
+	width: 1620px;
+	justify-content: space-between !important;
+}
+.category-span,
+.category-purple {
+	color: #222;
+	font-size: 20px;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 600;
+	height: auto;
+	width: auto;
+	line-height: 21.6px;
+}
+.category-purple {
+	color: #a970ff;
+	margin-left: 5px;
+}
+/*CARDS*/
+
+.category-card-div {
+	height: 298px;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	font-stretch: 100%;
+	line-height: 18px;
+	margin: 0 0.5rem;
+	width: 153px;
+	display: block;
+}
+
+.category-card {
+	padding-bottom: 2rem !important;
+	display: block;
+	height: inherit;
+	width: inherit;
+}
+
+.category-image {
+	width: 153px;
+	position: relative;
+	height: 204px;
+	cursor: pointer;
+}
+
+.category-text-div {
+	position: relative;
+	display: block;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	font-stretch: 100%;
+	height: 44px;
+	list-style-position: outside;
+	width: 153px;
+}
+
+.category-card-subheader {
+	display: block;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	font-stretch: 100%;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 21px;
+	height: 21px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 153px;
+	white-space: nowrap;
+}
+
+.category-card-viewers {
+	color: rgb(173, 173, 184);
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+	font-stretch: 100%;
+	line-height: 18px;
+	white-space: nowrap;
+	font-size: 12px;
+}

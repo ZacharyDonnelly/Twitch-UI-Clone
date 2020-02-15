@@ -4,6 +4,7 @@ import Sidebar from '../sidebar/sidebar';
 import Headliner from '../headliner/headliner';
 import Recommended from '../recommended-section/recommended';
 import ComponentSeparator from './component-seperators/component-seperators';
+import Categories from '../category-section/categories';
 
 const Dashboard = () => {
 	return (
@@ -13,6 +14,7 @@ const Dashboard = () => {
 			<Headliner />
 			<Recommended />
 			<ComponentSeparator />
+			<Categories />
 		</>
 	);
 };
