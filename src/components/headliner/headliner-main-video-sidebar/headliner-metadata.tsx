@@ -1,7 +1,7 @@
 import React from 'react';
 import MetaImage from '../../../assets/images/metadata-img.png';
-import '../headliner.styles.css';
 import MetadataButton from './metadata-button/metadata-button';
+import '../headliner.styles.css';
 
 const HeadlinerMetadata = () => {
 	return (
