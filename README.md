@@ -1,5 +1,6 @@
 # Twitch clone
-
+### [Check out my live site here!](https://twitchbyzach.netlify.com)
+![Homepage of my Twitch clone](https://i.imgur.com/AcTcItM.png)
 ## React, TypeScript, Redux, & Storybook
 
 ### by Zach Donnelly
