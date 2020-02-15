@@ -1,8 +1,6 @@
 import React from 'react';
-import Right from '../../assets/images/headliner-right-backup.png';
-import Left from '../../assets/images/headliner-left-backup.png';
-import RightTwo from '../../assets/images/headliner-right.jpg';
-import LeftTwo from '../../assets/images/headliner-left.jpg';
+import Right from '../../assets/images/headliner-right-ad.png';
+import Left from '../../assets/images/headliner-left-ad.png';
 import HeadlinerCarousel from './headliner-carousel/headliner-carousel';
 import './headliner.styles.css';
 
