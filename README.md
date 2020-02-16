@@ -1,7 +1,7 @@
 # Twitch clone
 ![Homepage of my Twitch clone](https://i.imgur.com/UORl0bn.png)
 
-## React, TypeScript, Redux, & Storybook
+## React, TypeScript, & Storybook
 
 ![Homepage of my Twitch clone w/ dropdown](https://i.imgur.com/kKP2hAc.png)
 
