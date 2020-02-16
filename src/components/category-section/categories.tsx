@@ -25,14 +25,14 @@ const Categories = () => {
 				<CategoryTemplate img={Just} category="Just Chatting" viewers="146" />
 				<CategoryTemplate img={Fort} category="Fortnite" viewers="89.1" />
 				<CategoryTemplate
-					img={League}
-					category="League of Legends"
-					viewers="160"
-				/>
-				<CategoryTemplate
 					img={Escape}
 					category="Escape From Tarkov"
-					viewers="51.3"
+					viewers="80.2"
+				/>
+				<CategoryTemplate
+					img={League}
+					category="League of Legends"
+					viewers="52.1"
 				/>
 				<CategoryTemplate img={Apex} category="Apex Legends" viewers="35.9" />
 				<CategoryTemplate img={Mine} category="Minecraft" viewers="10.8" />

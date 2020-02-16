@@ -31,6 +31,17 @@
 	background-color: #f7f7f8;
 	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
 }
+.recommended-outter-four {
+	position: absolute;
+	right: 0;
+	top: 1790px;
+	width: 1679px;
+	height: 350px;
+	z-index: -10;
+	font-stretch: 100%;
+	background-color: #f7f7f8;
+	font-family: 'Roobert', 'Helvetica Neue', Arial, sans-serif;
+}
 
 .recommended-inner-margin {
 	position: relative;

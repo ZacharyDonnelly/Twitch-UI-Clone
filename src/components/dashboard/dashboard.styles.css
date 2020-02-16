@@ -64,6 +64,15 @@
 	padding: 1.5rem 0;
 	top: 192vh;
 }
+.show-more-line-left-five {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	height: inherit;
+	position: absolute;
+	width: 655px !important;
+	left: 295px;
+	padding: 1.5rem 0;
+	top: 228.6vh;
+}
 .show-more-line-right-three {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
 	z-index: 15;
@@ -83,6 +92,16 @@
 	right: 80px;
 	padding: 1.5rem 0;
 	top: 192vh;
+}
+.show-more-line-right-five {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	z-index: 15;
+	height: inherit;
+	position: absolute;
+	width: 690px !important;
+	right: 80px;
+	padding: 1.5rem 0;
+	top: 228.6vh;
 }
 
 .border {
@@ -122,6 +141,15 @@
 .border-button-div-four {
 	position: absolute;
 	top: 190vh;
+	cursor: pointer;
+	left: 975px;
+	width: 128.8px;
+	cursor: pointer;
+	height: 40px;
+}
+.border-button-div-five {
+	position: absolute;
+	top: 227vh;
 	cursor: pointer;
 	left: 975px;
 	width: 128.8px;
