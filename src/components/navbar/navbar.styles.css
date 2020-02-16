@@ -1,9 +1,17 @@
 /*NAVBAR*/
+.navbar-placeholder {
+	position: relative;
+	height: 50px;
+}
+
 .navbar {
 	display: flex;
 	overflow: hidden !important;
+	position: fixed;
 	height: 50px;
-	z-index: 10;
+	z-index: 1000;
+	width: 100vw;
+	background-color: #f7f7f8;
 	line-height: 18px;
 	-webkit-box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);
 	-moz-box-shadow: 0px 1px 5px 0px rgba(163, 163, 163, 0.66);

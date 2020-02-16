@@ -1,4 +1,5 @@
 import React from 'react';
+import MetadataButton from '../headliner/headliner-main-video-sidebar/metadata-button/metadata-button';
 import './categories.styles.css';
 
 interface Category {
@@ -15,6 +16,9 @@ const CategoryTemplate = ({ img, category, viewers }: Category) => {
 				<div className="category-text-div">
 					<h3 className="category-card-subheader">{category}</h3>
 					<p className="category-card-viewers">{viewers}k viewers</p>
+				</div>
+				<div className="recommended-subtitle-btn">
+					<MetadataButton text="English" classes="metadata-button-text" />
 				</div>
 			</div>
 		</div>

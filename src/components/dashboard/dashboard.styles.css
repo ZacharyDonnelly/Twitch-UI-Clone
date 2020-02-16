@@ -27,10 +27,30 @@
 	padding: 1.5rem 0;
 	top: 81.4%;
 }
+.show-more-line-left-two {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	height: inherit;
+	position: absolute;
+	width: 655px !important;
+	left: 295px;
+	padding: 1.5rem 0;
+	top: 119vh;
+}
+.show-more-line-right-two {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	z-index: 15;
+	height: inherit;
+	position: absolute;
+	width: 690px !important;
+	right: 80px;
+	padding: 1.5rem 0;
+	top: 119vh;
+}
 
 .border {
 	width: 1200px;
 	height: 30px;
+	border: none;
 	text-align: center;
 }
 /*BUTTON*/
@@ -39,6 +59,15 @@
 	top: 79.8%;
 	cursor: pointer;
 	left: 970px;
+	width: 128.8px;
+	cursor: pointer;
+	height: 40px;
+}
+.border-button-div-two {
+	position: absolute;
+	top: 117.3vh;
+	cursor: pointer;
+	left: 960px;
 	width: 128.8px;
 	cursor: pointer;
 	height: 40px;

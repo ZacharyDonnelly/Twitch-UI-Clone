@@ -14,6 +14,7 @@
 	position: absolute;
 	right: 0;
 	top: 825px;
+	z-index: -10;
 	width: 1679px;
 	height: 339px;
 	font-stretch: 100%;
