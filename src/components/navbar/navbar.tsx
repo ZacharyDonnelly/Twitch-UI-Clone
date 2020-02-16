@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import NavbarLogin from './navbar-buttons/login/navbar-login-button';
 import NavbarSignup from './navbar-buttons/signup/navbar-signup-button';
@@ -10,29 +10,11 @@ import NavbarSearch from './navbar-search-box/navbar-search-box';
 import './navbar.styles.css';
 
 const Navbar = () => {
-	const [scroll, setScroll] = useState(false);
-	useEffect(() => {
-		const handleScroll = () => {
-			if (window.scrollY > 0.001) {
-				setScroll(true);
-			}
-		};
-		window.addEventListener('scroll', handleScroll);
-		return () => {
-			window.removeEventListener('scroll', handleScroll);
-		};
-	});
 	return (
-		<div
-			className="navbar-placeholder"
-			style={{
-				position: scroll ? 'fixed' : 'relative',
-			}}>
+		<div className="navbar-placeholder">
 			<nav className="navbar">
 				<NavbarSvg />
-				<div
-					className="navbar-main"
-					style={{ position: scroll ? 'fixed' : 'relative' }}>
+				<div className="navbar-main">
 					<NavLink to="/" className="navbar-item" activeClassName="active">
 						Discover
 					</NavLink>

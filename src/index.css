@@ -147,7 +147,7 @@ body {
 body::-webkit-scrollbar-thumb {
 	background-color: rgba(0, 0, 0, 0.68);
 	transition: 0.25s;
-	height: 95%;
+	height: 70%;
 	border-radius: 6px;
 }
 
