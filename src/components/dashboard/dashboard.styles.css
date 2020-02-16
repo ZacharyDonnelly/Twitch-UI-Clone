@@ -46,6 +46,44 @@
 	padding: 1.5rem 0;
 	top: 119vh;
 }
+.show-more-line-left-three {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	height: inherit;
+	position: absolute;
+	width: 655px !important;
+	left: 295px;
+	padding: 1.5rem 0;
+	top: 155.66vh;
+}
+.show-more-line-left-four {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	height: inherit;
+	position: absolute;
+	width: 655px !important;
+	left: 295px;
+	padding: 1.5rem 0;
+	top: 192vh;
+}
+.show-more-line-right-three {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	z-index: 15;
+	height: inherit;
+	position: absolute;
+	width: 690px !important;
+	right: 80px;
+	padding: 1.5rem 0;
+	top: 155.6vh;
+}
+.show-more-line-right-four {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	z-index: 15;
+	height: inherit;
+	position: absolute;
+	width: 690px !important;
+	right: 80px;
+	padding: 1.5rem 0;
+	top: 192vh;
+}
 
 .border {
 	width: 1200px;
@@ -58,7 +96,7 @@
 	position: absolute;
 	top: 79.8%;
 	cursor: pointer;
-	left: 970px;
+	left: 975px;
 	width: 128.8px;
 	cursor: pointer;
 	height: 40px;
@@ -67,7 +105,25 @@
 	position: absolute;
 	top: 117.3vh;
 	cursor: pointer;
-	left: 960px;
+	left: 975px;
+	width: 128.8px;
+	cursor: pointer;
+	height: 40px;
+}
+.border-button-div-three {
+	position: absolute;
+	top: 154.1vh;
+	cursor: pointer;
+	left: 975px;
+	width: 128.8px;
+	cursor: pointer;
+	height: 40px;
+}
+.border-button-div-four {
+	position: absolute;
+	top: 190vh;
+	cursor: pointer;
+	left: 975px;
 	width: 128.8px;
 	cursor: pointer;
 	height: 40px;

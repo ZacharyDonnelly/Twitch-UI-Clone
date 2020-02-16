@@ -5,7 +5,7 @@ import MetadataButton from '../../headliner/headliner-main-video-sidebar/metadat
 interface Recommended {
 	title: string;
 	user: string;
-	game: string;
+	game?: string;
 	small: string;
 	large: string;
 }

@@ -18,42 +18,37 @@ const RecommendedCategory = () => (
 			<p className="suggested-header-container">
 				<span className="recommended-span">Recommended</span>
 				<span className="recommended-purple">Just Chatting</span>
-				<span className="recommended-live">live channels</span>
+				<span className="recommended-live">channels</span>
 			</p>
 		</div>
 		<div className="recommended-inner-margin">
 			<RecommendedCard
 				title="Numero Uno"
 				user="MontanaBlack88"
-				game="Just Chatting"
 				small={ChattingSmallOne}
 				large={ChattingOne}
 			/>
 			<RecommendedCard
 				title="@Greekgodx on Twitter"
 				user="Greekgodx"
-				game="Just Chatting"
 				small={ChattingSmallTwo}
 				large={ChattingTwo}
 			/>
 			<RecommendedCard
 				title="24/7 Daily Game Deals / Giveaway ( RTX 2070 )"
 				user="allkeyshop_tv"
-				game="Just Chatting"
 				small={ChattingSmallThree}
 				large={ChattingThree}
 			/>
 			<RecommendedCard
 				title="Wie bydde? !discord !prime !sub !highlight !realtalk"
 				user="INSCOPE21TV"
-				game="Just Chatting"
 				small={ChattingSmallFour}
 				large={ChattingFour}
 			/>
 			<RecommendedCard
 				title="🧡 LONG STREAM TODAY!"
 				user="Alinity"
-				game="Just Chatting"
 				small={ChattingSmallFive}
 				large={ChattingFive}
 			/>

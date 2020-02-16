@@ -6,7 +6,10 @@ import Recommended from '../recommended-section/recommended';
 import RecommendedCategory from '../recommended-category/recommended-category';
 import ComponentSeparator from './component-seperators/component-seperators';
 import SecondSeparator from './component-seperators/second-seperator';
+import ThirdSeperator from './component-seperators/third-seperator';
 import Categories from '../category-section/categories';
+import RecommendedCategoryTwo from '../recommended-category/recommended-category-two';
+import FourthSeparator from './component-seperators/fourth-seperator';
 
 const Dashboard = () => {
 	return (
@@ -19,6 +22,9 @@ const Dashboard = () => {
 			<Categories />
 			<SecondSeparator />
 			<RecommendedCategory />
+			<ThirdSeperator />
+			<RecommendedCategoryTwo />
+			<FourthSeparator />
 		</>
 	);
 };
