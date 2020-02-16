@@ -1,9 +1,15 @@
 # Twitch clone
-### [Check out my live site here!](https://twitchbyzach.netlify.com)
-![Homepage of my Twitch clone](https://i.imgur.com/AcTcItM.png)
-## React, TypeScript, Redux, & Storybook
+![Homepage of my Twitch clone](https://i.imgur.com/UORl0bn.png)
+
+## React, TypeScript, & Storybook
+
+![Homepage of my Twitch clone w/ dropdown](https://i.imgur.com/kKP2hAc.png)
 
 ### by Zach Donnelly
+
+## Install Dependencies
+
+### `yarn`
 
 ## Available Scripts
 
