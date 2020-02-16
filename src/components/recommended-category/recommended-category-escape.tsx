@@ -13,7 +13,7 @@ import RecommendedCard from '../recommended-section/recommended-card-template/re
 
 import '../recommended-section/recommended.styles.css';
 
-const RecommendedThree = () => (
+const RecommendedCategoryEscape = () => (
 	<div className="recommended-outter-four">
 		<div className="suggested-header-div">
 			<p className="suggested-header-container">
@@ -57,4 +57,4 @@ const RecommendedThree = () => (
 	</div>
 );
 
-export default RecommendedThree;
+export default RecommendedCategoryEscape;

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../dashboard.styles.css';
 
-const FifthSeperator = () => (
+const FifthSeparator = () => (
 	<div className="border">
 		<div className="show-more-line-left-five" />
 		<div className="border-button-div-five">
@@ -26,4 +26,4 @@ const FifthSeperator = () => (
 	</div>
 );
 
-export default FifthSeperator;
+export default FifthSeparator;

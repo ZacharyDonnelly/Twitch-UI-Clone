@@ -12,7 +12,7 @@ import ChattingFive from '../../assets/images/chatting-five.jpg';
 import RecommendedCard from '../recommended-section/recommended-card-template/recommended-card-template';
 import '../recommended-section/recommended.styles.css';
 
-const RecommendedCategory = () => (
+const RecommendedCategoryChatting = () => (
 	<div className="recommended-outter-two">
 		<div className="suggested-header-div">
 			<p className="suggested-header-container">
@@ -56,4 +56,4 @@ const RecommendedCategory = () => (
 	</div>
 );
 
-export default RecommendedCategory;
+export default RecommendedCategoryChatting;

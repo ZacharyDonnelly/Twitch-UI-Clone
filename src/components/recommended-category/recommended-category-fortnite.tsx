@@ -12,7 +12,7 @@ import FortniteFive from '../../assets/images/fortnite-five.jpg';
 import RecommendedCard from '../recommended-section/recommended-card-template/recommended-card-template';
 import '../recommended-section/recommended.styles.css';
 
-const RecommendedCategoryTwo = () => (
+const RecommendedCategoryFortnite = () => (
 	<div className="recommended-outter-three">
 		<div className="suggested-header-div">
 			<p className="suggested-header-container">
@@ -56,4 +56,4 @@ const RecommendedCategoryTwo = () => (
 	</div>
 );
 
-export default RecommendedCategoryTwo;
+export default RecommendedCategoryFortnite;
