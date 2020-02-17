@@ -342,7 +342,6 @@
 	-webkit-appearance: none;
 	color: rgb(0, 0, 0);
 	outline: none;
-	border-color: rgb(145, 71, 255);
 	transition-delay: 0s, 0s, 0s;
 	transition: box-shadow 0.1s ease-in, border 0.1s ease-in,
 		background-color 0.1s ease-in;
