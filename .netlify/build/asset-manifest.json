@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c30729b9.chunk.css",
-    "main.js": "/static/js/main.e8ce6409.chunk.js",
-    "main.js.map": "/static/js/main.e8ce6409.chunk.js.map",
+    "main.js": "/static/js/main.cf4462af.chunk.js",
+    "main.js.map": "/static/js/main.cf4462af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5f7a5d76.js",
     "runtime-main.js.map": "/static/js/runtime-main.5f7a5d76.js.map",
-    "static/js/2.de9a6df8.chunk.js": "/static/js/2.de9a6df8.chunk.js",
-    "static/js/2.de9a6df8.chunk.js.map": "/static/js/2.de9a6df8.chunk.js.map",
+    "static/js/2.bc51ffe5.chunk.js": "/static/js/2.bc51ffe5.chunk.js",
+    "static/js/2.bc51ffe5.chunk.js.map": "/static/js/2.bc51ffe5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8a6aac831405f8f372dde1bcc4958638.js": "/precache-manifest.8a6aac831405f8f372dde1bcc4958638.js",
+    "precache-manifest.cf10cbbed2816f5a6fd311448905a66d.js": "/precache-manifest.cf10cbbed2816f5a6fd311448905a66d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c30729b9.chunk.css.map": "/static/css/main.c30729b9.chunk.css.map",
-    "static/js/2.de9a6df8.chunk.js.LICENSE.txt": "/static/js/2.de9a6df8.chunk.js.LICENSE.txt",
+    "static/js/2.bc51ffe5.chunk.js.LICENSE.txt": "/static/js/2.bc51ffe5.chunk.js.LICENSE.txt",
     "static/media/Apex Legends-188x250.jpg": "/static/media/Apex Legends-188x250.d8b62ef7.jpg",
     "static/media/Call of Duty_ Modern Warfare-188x250.jpg": "/static/media/Call of Duty_ Modern Warfare-188x250.bbd575e9.jpg",
     "static/media/Counter-Strike_ Global Offensive-188x250.jpg": "/static/media/Counter-Strike_ Global Offensive-188x250.ffcdc1ab.jpg",
@@ -55,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5f7a5d76.js",
-    "static/js/2.de9a6df8.chunk.js",
+    "static/js/2.bc51ffe5.chunk.js",
     "static/css/main.c30729b9.chunk.css",
-    "static/js/main.e8ce6409.chunk.js"
+    "static/js/main.cf4462af.chunk.js"
   ]
 }

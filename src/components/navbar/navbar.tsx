@@ -25,12 +25,13 @@ const Navbar = () => {
 						activeClassName="active">
 						Browse
 					</NavLink>
-					<NavLink
-						to="/amazon"
+					<a
+						href="https://twitch.amazon.com/tp?ref_=sm_tw_tup_ntp_t_all_exBar&twitchReferral=e784f0e508b180cdcde2199f1c78ca93"
 						className="navbar-item"
-						activeClassName="active">
+						target="_blank"
+						rel="noopener noreferrer">
 						Try Prime
-					</NavLink>
+					</a>
 				</div>
 				<div className="navbar-button-div">
 					<NavbarPrime />
