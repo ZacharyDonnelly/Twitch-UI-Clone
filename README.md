@@ -1,5 +1,5 @@
 # Twitch clone
-[Check out the live site!](https://focused-mcnulty-f4251f.netlify.com/)
+[Check out the live site!](https://twitchbyzach.netlify.com/)
 
 ![Homepage of my Twitch clone w/ dropdown](https://i.imgur.com/kKP2hAc.png)
 
