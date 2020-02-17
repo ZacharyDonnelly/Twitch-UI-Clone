@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cddf4ee.chunk.css",
-    "main.js": "/static/js/main.19670954.chunk.js",
-    "main.js.map": "/static/js/main.19670954.chunk.js.map",
+    "main.css": "/static/css/main.41e763aa.chunk.css",
+    "main.js": "/static/js/main.f9cf3d49.chunk.js",
+    "main.js.map": "/static/js/main.f9cf3d49.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5f7a5d76.js",
     "runtime-main.js.map": "/static/js/runtime-main.5f7a5d76.js.map",
-    "static/js/2.b9463e80.chunk.js": "/static/js/2.b9463e80.chunk.js",
-    "static/js/2.b9463e80.chunk.js.map": "/static/js/2.b9463e80.chunk.js.map",
+    "static/js/2.de9a6df8.chunk.js": "/static/js/2.de9a6df8.chunk.js",
+    "static/js/2.de9a6df8.chunk.js.map": "/static/js/2.de9a6df8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.72bf826a6f5cdd33ad2bb5ed8e03d854.js": "/precache-manifest.72bf826a6f5cdd33ad2bb5ed8e03d854.js",
+    "precache-manifest.23394c606b3cb3d4a5332bce075907f4.js": "/precache-manifest.23394c606b3cb3d4a5332bce075907f4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1cddf4ee.chunk.css.map": "/static/css/main.1cddf4ee.chunk.css.map",
-    "static/js/2.b9463e80.chunk.js.LICENSE.txt": "/static/js/2.b9463e80.chunk.js.LICENSE.txt",
+    "static/css/main.41e763aa.chunk.css.map": "/static/css/main.41e763aa.chunk.css.map",
+    "static/js/2.de9a6df8.chunk.js.LICENSE.txt": "/static/js/2.de9a6df8.chunk.js.LICENSE.txt",
     "static/media/Apex Legends-188x250.jpg": "/static/media/Apex Legends-188x250.d8b62ef7.jpg",
     "static/media/Call of Duty_ Modern Warfare-188x250.jpg": "/static/media/Call of Duty_ Modern Warfare-188x250.bbd575e9.jpg",
     "static/media/Counter-Strike_ Global Offensive-188x250.jpg": "/static/media/Counter-Strike_ Global Offensive-188x250.ffcdc1ab.jpg",
@@ -55,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5f7a5d76.js",
-    "static/js/2.b9463e80.chunk.js",
-    "static/css/main.1cddf4ee.chunk.css",
-    "static/js/main.19670954.chunk.js"
+    "static/js/2.de9a6df8.chunk.js",
+    "static/css/main.41e763aa.chunk.css",
+    "static/js/main.f9cf3d49.chunk.js"
   ]
 }

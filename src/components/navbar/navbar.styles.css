@@ -159,12 +159,12 @@
 /*SVG DROPDOWN SECTION*/
 .shadow-button {
 	position: absolute;
-	top: 2.5px;
+	top: 0;
 	height: 30px;
 	cursor: pointer;
 	border-radius: 4px;
 	width: 30px;
-	left: 1px;
+	left: 0;
 	outline: none;
 	border: none;
 	z-index: 9999;
@@ -173,7 +173,7 @@
 }
 /*SVG*/
 .svg-dropdown-div {
-	position: absolute;
+	position: fixed;
 	top: 10px;
 	left: 385px;
 	cursor: pointer;
@@ -222,14 +222,13 @@
 
 /*DROPDOWN*/
 .dropdown-outter {
-	max-height: 100%;
 	height: 539px;
-	position: absolute;
+	position: fixed;
 	z-index: 9999;
 	top: 50px;
 	left: 390px;
 	border-radius: 6px;
-	overflow: scroll;
+	overflow: hidden;
 	display: flex;
 	-webkit-overflow-scrolling: touch;
 }
@@ -241,6 +240,7 @@
 	background-color: #fff;
 	display: none;
 	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .showing {

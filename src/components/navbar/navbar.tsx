@@ -12,6 +12,7 @@ import './navbar.styles.css';
 const Navbar = () => {
 	return (
 		<div className="navbar-placeholder">
+			<NavbarDropdown />
 			<nav className="navbar">
 				<NavbarSvg />
 				<div className="navbar-main">
@@ -33,7 +34,6 @@ const Navbar = () => {
 				</div>
 				<div className="navbar-button-div">
 					<NavbarPrime />
-					<NavbarDropdown />
 					<NavbarLogin />
 					<NavbarSignup />
 					<NavbarAvatar />
