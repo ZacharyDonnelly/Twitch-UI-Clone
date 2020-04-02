@@ -16,15 +16,24 @@ Built with React & React Hooks, CSS, TypeScript, and Storybook.
 
 ![Homepage of my Twitch clone w/ dropdown](https://i.imgur.com/kKP2hAc.png)
 
-## Install Dependencies
+# Usage
 
-### `yarn`
+## Installation
 
-## Available Scripts
+Use the package manager [Yarn](https://yarnpkg.com/lang/en/) to install dependencies.
 
-In the project directory, you can run:
+```
+yarn
+```
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can also use [NPM](https://www.npmjs.com) to install dependencies.
+
+```
+npm install
+```
+<hr />
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
